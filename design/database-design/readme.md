@@ -2,7 +2,7 @@
 
 - [Table of Content](#table-of-content)
   - [Tables](#tables)
-  - [Indecies](#indecies)
+  - [Indices](#indices)
   - [Database Diagram (mermaid)](#database-diagram-mermaid)
   - [Sql script](#sql-script)
 
@@ -25,7 +25,7 @@
 
 ⬆️ [Back](#table-of-content)
 
-## Indecies
+## Indices
 
 - CREATE INDEX idx_users_email ON Users(email);
 - CREATE INDEX idx_products_name ON Products(name);
@@ -248,10 +248,6 @@ CREATE TABLE Payments (
     payment_method VARCHAR(50) NOT NULL,
     transaction_id VARCHAR(255) UNIQUE NOT NULL
 );
-
-
-
-
 
 CREATE TABLE UserActivity (
     activity_id SERIAL PRIMARY KEY,
