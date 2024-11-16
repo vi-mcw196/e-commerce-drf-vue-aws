@@ -206,7 +206,6 @@ CREATE TABLE ProductCategories (
     PRIMARY KEY (product_id, category_id)
 );
 
-
 CREATE TABLE ProductImages (
     image_id SERIAL PRIMARY KEY,
     product_id INTEGER NOT NULL REFERENCES Products(product_id) ON DELETE CASCADE,
