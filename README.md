@@ -36,7 +36,7 @@
 
 This project is a monolithic e-commerce platform designed to provide users with a seamless shopping experience. The platform integrates user account management, product browsing, basket management, order processing, and a recommendation engine into a single application. Built as a monolithic architecture, it handles all components under one unified system.
 
-> **ℹ️ Note:**  
+> [!NOTE] 
 >
 > - All project documentation can be found under the `design` folder.  
 > - The README files for this project are located in the `design` folder.  
@@ -134,7 +134,7 @@ This project is a monolithic e-commerce platform designed to provide users with 
 - **Terraform**: Automates the provisioning of cloud infrastructure, including EC2 instances, S3 buckets, and RDS databases.  
 - **Ansible**: Handles configuration management, ensuring all servers are consistently set up for application deployment.
 
-> **🔧 Note:**  
+> [!NOTE] 
 > The entire infrastructure is deployed using **Terraform** and configured with **Ansible** for efficiency and consistency.
 
 [🔝 Back to Table of Contents](#table-of-contents)
@@ -146,7 +146,7 @@ This project is a monolithic e-commerce platform designed to provide users with 
 - **Docker**: Containerizes the application, ensuring consistency between development and production environments.  
 - **Docker Compose**: Orchestrates multi-container deployments for local development, making it easy to run the full application stack.
 
-> **📦 Note:**  
+> [!IMPORTANT]  
 > Local development requirements, including the database and frontend/backend services, are fully managed using **Dockerfiles** and **Docker Compose**.
 
 [🔝 Back to Table of Contents](#table-of-contents)
