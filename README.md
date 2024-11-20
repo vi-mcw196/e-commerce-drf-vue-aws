@@ -200,7 +200,7 @@ This project is a monolithic e-commerce platform designed to provide users with 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-repo/ecommerce-platform.git
+   git clone https://github.com/vi-mcw196/e-commerce-viktor-secret.git
    cd ecommerce-platform
    ```
 
